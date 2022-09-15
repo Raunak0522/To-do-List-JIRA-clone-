@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-List</title>
+    <link rel="icon" href="./bookmark-ribbon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Toolbox Conatiner -->
+    <div class="toolbox-cont">
+      <div class="toolbox-priority-container">
+        <div class="lightgreen color"></div>
+        <div class="lightblue color"></div>
+        <div class="lightyellow color"></div>
+        <div class="black color"></div>
+      </div>
+      <div class="action-btn-cont">
+        <div class="add-btn">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Tickets Box -->
+    <div class="main-cont">
+      <!-- <div class="tickets-cont">
+        <div class="tickets-color"></div>
+        <div class="tickets-id">SampleId</div>
+        <div class="tickets-textarea">dfdf</div>
+        <div class="ticket-lock">
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        
+      </div> -->
+    </div>
+    <!-- Modal-cont -->
+    <div class="modal-cont">
+      <textarea class="textarea-cont" placeholder="Enter the Task"></textarea>
+
+      <div class="priority-colors-cont">
+        <div class="lightgreen priority-cont"></div>
+        <div class="lightblue priority-cont"></div>
+        <div class="lightyellow priority-cont"></div>
+        <div class="black priority-cont active"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
